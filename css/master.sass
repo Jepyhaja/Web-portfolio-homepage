@@ -27,12 +27,18 @@ body
 	background-color: $bgc
 #SVGRoot
 	width: 40px
+.opener
+	padding-top: 5%
+	background-image: url(../images/saittibg.png)
+	background-repeat: no-repeat
+	background-size: cover
+	height: 650px
 .name
 	color: $hilight
 h1,.ptr,.ptr-r,.ptr-l
 	position: relative
 	display: inline-block
-	color: $text
+	color: $text + 50
 h2
 	color: $text
 h3
@@ -48,7 +54,9 @@ a:hover
 	text-align: center
 .ptr-r
 	text-align: center
-
+.closer
+	border-top: 2px solid $hilight
+	background-color: $bgc + 20
 @include respond-to($tablet-landscape)
 
 @include respond-to($tablet-portrait)
