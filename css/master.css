@@ -1,0 +1,49 @@
+/*@include respond-to($phone)
+ * background-color: rgba(#2ecc71, .5)
+ * @include respond-to($tablet-portrait)
+ * background-color: rgba(#3498db, .5)
+ * @include respond-to($tablet-landscape)
+ * background-color: rgba(#9b59b6, .5) */
+body {
+  background-color: #2B2B2B; }
+
+#SVGRoot {
+  width: 40px; }
+
+.name {
+  color: #32CD32; }
+
+h1, .ptr, .ptr-r, .ptr-l {
+  position: relative;
+  display: inline-block;
+  color: #A8A8A8; }
+
+h2 {
+  color: #A8A8A8; }
+
+h3 {
+  color: #A8A8A8; }
+
+p {
+  color: #A8A8A8; }
+
+a h3 {
+  color: #32CD32; }
+
+a:hover {
+  text-decoration: none; }
+
+.ptr-l {
+  text-align: center; }
+
+.ptr-r {
+  text-align: center; }
+
+@media only screen and (min-width: 1200px) {
+  .ptr-l {
+    text-align: right; }
+
+  .ptr-r {
+    text-align: left; } }
+
+/*# sourceMappingURL=master.css.map */
