@@ -9,15 +9,15 @@
 
 $bgc: #2B2B2B
 $text: #A8A8A8
-$hilight: #32CD32
-
-//--------------------VARIABLES
+//$hilight: #32CD32
+$hilight: #b0ffb0
+//--------------------OTHER VARIABLES
 
 //--------------------MEDIA QUERY
 $phone : '(max-width: 480px)'
-$tablet-portrait: '(max-width: 767px)'
+$tablet-portrait: '(min-width: 768px)'
 $tablet-landscape: '(min-width: 768px) and (max-width: 979px)'
-$large-desktop: '(min-width: 1200px)'
+$large-desktop: '(min-width: 980px)'
 
 @mixin respond-to($media)
 	@media only screen and #{$media}
@@ -25,46 +25,132 @@ $large-desktop: '(min-width: 1200px)'
 
 body
 	background-color: $bgc
+//------------------------------------------NAV
 #SVGRoot
 	width: 40px
+.nav-link
+	display: block
+	color: $hilight !important
+.current
+	color: $hilight - 50 !important
+.current::after
+	content: "<"
+	width: 10
+	margin-left: 5px
+nav
+	a
+		font-family: Orbitron, sans-serif
+//------------------------------------------HERO
 .opener
-	padding-top: 5%
+	padding-top: 57px
 	background-image: url(../images/websitehexbgv02.png)
 	background-repeat: no-repeat
 	background-position: center
-	height: 690px
+	height: 600px
+.name
+	margin-bottom: 35px
+	font-size: 250%
 .name,.author
+	display: inline-block
 	color: $hilight
+	background: linear-gradient(rgba(50, 205, 50, 0.0),rgba(30, 123, 30,0.2),rgba(50, 205, 50, 0.0))
+	border-radius: 100%
 h1,.ptr-r,.ptr-l
 	position: relative
 	display: inline-block
 	color: $text + 50
+	font-family: Orbitron, sans-serif
 .ptr
-	color: $text - 200
+	color: $text - 130
 h2
 	color: $text
+	font-family: Orbitron, sans-serif
 h3
+	font-family: Orbitron, sans-serif
 	color: $text
+	font-size: 150%
 p
 	color: $text
-a
+	max-width: 80%
+	margin: 0 auto
+	font-family: Lato, sans-serif
+	font-size: 115%
+.cta
+	font-family: Orbitron, sans-serif
+	display: inline-block
+	color: $hilight
+	text-decoration: underline
+	background: linear-gradient(rgba(50, 205, 50, 0.0),rgba(30, 123, 30,0.2),rgba(50, 205, 50, 0.0))
+	border-radius: 100%
 	h3
 		color: $hilight
-a:hover
-	text-decoration: none
+.cta:hover,.cta:active
+	color: $hilight
+	text-decoration: underline
 .ptr-l
 	text-align: center
 .ptr-r
 	text-align: center
+//----------------------------------HOOKS
+.hookh1
+	color: $hilight
+	font-size: 200%
+.hookh2
+	font-size: 160%
+	margin-top: 15px
+	margin-bottom: 10px
+.hookp
+	margin-bottom: 15px
 .closer
+	margin-top: 15px
 	border-top: 2px solid $hilight
 	background-color: $bgc + 20
+//-----------------------------------PORTFOLIO
+//-----------------------------------CARDS
+.card
+	border: none !important
+.card-block
+	background: $bgc + 20
+.card-title
+	color: $hilight
+	margin-top: 15px
+	text-align: center
 @include respond-to($tablet-landscape)
-
+	#SVGRoot
+		width: 50px
+	.opener
+		padding-top: 100px
+	.name
+		margin-bottom: 97px
+	.cta
+		margin-top: 50px
 @include respond-to($tablet-portrait)
-
+	#SVGRoot
+		width: 60px
+	.opener
+		padding-top: 100px
 @include respond-to($large-desktop)
+	#SVGRoot
+		width: 80px
+	.opener
+		height: 900px
+		padding-top: 100px
+		background-position: 50% 100%
+	.name
+		margin-bottom: 157px
+	.cta
+		margin-top: 250px
 	.ptr-l
 		text-align: right
 	.ptr-r
 		text-align: left
+	.hookh1
+		font-size: 200%
+	.hookh2
+		font-size: 160%
+		margin-top: 35px
+		margin-bottom: 30px
+	.hookp
+		margin-bottom: 15px
+	.closer
+		margin-top: 35px
