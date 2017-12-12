@@ -202,6 +202,33 @@ p {
 .progress.perseverance .progress-left .progress-bar {
   animation: loading-6 0.5s linear forwards 0.5s; }
 
+.progress.HTML .progress-left .progress-bar {
+  animation: loading-8 0.5s linear forwards 0.5s; }
+
+.progress.JS .progress-left .progress-bar {
+  animation: loading-6 0.5s linear forwards 0.5s; }
+
+.progress.JQ .progress-left .progress-bar {
+  animation: loading-7 0.5s linear forwards 0.5s; }
+
+.progress.SASS .progress-left .progress-bar {
+  animation: loading-4 0.5s linear forwards 0.5s; }
+
+.progress.BS .progress-left .progress-bar {
+  animation: loading-3 0.5s linear forwards 0.5s; }
+
+.progress.react .progress-left .progress-bar {
+  animation: loading-9 0.5s linear forwards 0.5s; }
+
+.progress.DB .progress-left .progress-bar {
+  animation: loading-9 0.5s linear forwards 0.5s; }
+
+.progress.GRP .progress-left .progress-bar {
+  animation: loading-6 0.5s linear forwards 0.5s; }
+
+.progress.GIT .progress-left .progress-bar {
+  animation: loading-7 0.5s linear forwards 0.5s; }
+
 @keyframes loading-1 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -244,6 +271,27 @@ p {
   100% {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg); } }
+@keyframes loading-7 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg); } }
+@keyframes loading-8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(162deg);
+    transform: rotate(162deg); } }
+@keyframes loading-9 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(36deg);
+    transform: rotate(36deg); } }
 .progresswrap {
   display: block;
   width: 330px;
@@ -261,6 +309,12 @@ p {
 
 .description {
   margin-bottom: 20px; }
+
+.mylist {
+  list-style: none; }
+  .mylist li h4 {
+    color: #A8A8A8;
+    font-family: Orbitron, sans-serif; }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   #SVGRoot {
