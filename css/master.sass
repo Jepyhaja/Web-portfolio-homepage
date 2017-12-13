@@ -66,6 +66,10 @@ h3
 	font-family: Orbitron, sans-serif
 	color: $text
 	font-size: 130%
+h4
+	color: $text
+	font-family: Orbitron, sans-serif
+	font-size: 120%
 p
 	color: $text
 	max-width: 80%
@@ -98,6 +102,10 @@ p
 	margin-top: 15px
 	border-top: 2px solid $hilight
 	background-color: $bgc + 20
+.mhide
+	display: none
+.mshow
+	display: block
 //-----------------------------------PORTFOLIO
 //-----------------------------------CARDS
 .card
@@ -257,6 +265,7 @@ p
 	100%
 		-webkit-transform: rotate(90deg)
 		transform: rotate(90deg)
+//--------------------------JQ--GIT
 @keyframes loading-7
 	0%
 		-webkit-transform: rotate(0deg)
@@ -264,6 +273,7 @@ p
 	100%
 		-webkit-transform: rotate(144deg)
 		transform: rotate(144deg)
+//--------------------------HTML
 @keyframes loading-8
 	0%
 		-webkit-transform: rotate(0deg)
@@ -271,6 +281,7 @@ p
 	100%
 		-webkit-transform: rotate(162deg)
 		transform: rotate(162deg)
+//--------------------------DB--React
 @keyframes loading-9
 	0%
 		-webkit-transform: rotate(0deg)
@@ -293,15 +304,32 @@ p
 	right: 0
 .description
 	margin-bottom: 20px
-.mylist
-	list-style: none
-	li
-		h4
-			color: $text
-			font-family: Orbitron, sans-serif
+	min-height: 70px
 //-----------------------------------CONTACT
-textarea
-	color: $bgc + 30
+.butto
+	background-color: $hilight - 30 !important
+	border: 2px solid $hilight
+	color: $text - 70
+	font-family: Orbitron, sans-serif
+	border-radius: 4px
+	padding: 2px 6px
+	cursor: pointer
+	transition-duration: 0.4s
+.butto:hover
+	background-color: $hilight - 60 !important
+	border: 2px solid $hilight - 45
+	color: $text - 70
+	font-family: Orbitron, sans-serif
+	border-radius: 4px
+	padding: 2px 6px
+	transition-duration: 0.4s
+a.butto
+	padding: 4px 6px
+.note
+	font-size: 80%
+input, textarea
+	background-color: $text + 65 !important
+
 //-----------------------------------MEDIA QUERIES
 @include respond-to($tablet-landscape)
 	#SVGRoot
@@ -312,12 +340,66 @@ textarea
 		margin-bottom: 109px
 	.cta
 		margin-top: 50px
+	h1,.ptr-r,.ptr-l
+		position: relative
+		display: inline-block
+		color: $text + 50
+		font-family: Orbitron, sans-serif
+		font-size: 200%
+	h2
+		color: $text
+		font-family: Orbitron, sans-serif
+		font-size: 150%
+	h3
+		font-family: Orbitron, sans-serif
+		color: $text
+		font-size: 130%
+	h4
+		color: $text
+		font-family: Orbitron, sans-serif
+		font-size: 120%
+	p
+		color: $text
+		max-width: 80%
+		margin: 0 auto
+		font-family: Lato, sans-serif
+		font-size: 110%
 @include respond-to($tablet-portrait)
 	#SVGRoot
 		width: 60px
 	.opener
 		padding-top: 100px
+	.description
+		min-height: 60px
+	h1,.ptr-r,.ptr-l
+		position: relative
+		display: inline-block
+		color: $text + 50
+		font-family: Orbitron, sans-serif
+		font-size: 200%
+	h2
+		color: $text
+		font-family: Orbitron, sans-serif
+		font-size: 150%
+	h3
+		font-family: Orbitron, sans-serif
+		color: $text
+		font-size: 130%
+	h4
+		color: $text
+		font-family: Orbitron, sans-serif
+		font-size: 120%
+	p
+		color: $text
+		max-width: 80%
+		margin: 0 auto
+		font-family: Lato, sans-serif
+		font-size: 110%
 @include respond-to($large-desktop)
+	.mhide
+		display: block
+	.mshow
+		display: none
 	#SVGRoot
 		width: 80px
 	.opener
@@ -342,3 +424,29 @@ textarea
 		margin-bottom: 15px
 	.closer
 		margin-top: 35px
+	.description
+		min-height: 100px
+	h1,.ptr-r,.ptr-l
+		position: relative
+		display: inline-block
+		color: $text + 50
+		font-family: Orbitron, sans-serif
+		font-size: 200%
+	h2
+		color: $text
+		font-family: Orbitron, sans-serif
+		font-size: 170%
+	h3
+		font-family: Orbitron, sans-serif
+		color: $text
+		font-size: 160%
+	h4
+		color: $text
+		font-family: Orbitron, sans-serif
+		font-size: 150%
+	p
+		color: $text
+		max-width: 80%
+		margin: 0 auto
+		font-family: Lato, sans-serif
+		font-size: 120%
