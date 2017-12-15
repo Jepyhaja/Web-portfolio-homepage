@@ -1,19 +1,15 @@
-# [Start Bootstrap - Bare](https://startbootstrap.com/template-overviews/bare/)
+## Teknologiat
+Koko sivusto on rakennettu alusta asti BS4 Bare templatea käyttäen, koska ainut asia mitä varsinaisesti halusin valmiiksi tehtynä oli NAV. Tämän lisäksi käytin Koalaa kääntämään SASSin CSS muotoon. Photoshopilla väännetty taustakuva ja lowpoly placeholderi Inkscapella svg logo sivulle. Tietysti versionhallintaan käytettiin GITiä, joka myös jo entuudesta tuttu.
+[Start Bootstrap - Bare](https://startbootstrap.com/template-overviews/bare/)
 
-[Bare](http://startbootstrap.com/template-overviews/bare/) is a bare HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
+Bootstrap oli vanha tuttavuus, joten sitä oli helppo lähteä käyttämään. SASS taas oli aivan uusi itselle ja tuotti alkuu hieman tuskaa saada esimerkiksi mediaquery toimimaan oikein. SASSin valitsin koska se vaikutti paremmalta vaihtoehdolta kuin LESS sen perusteella että tarvittaessa voi käyttää esim if lauseita yms. Inkscape myös uutena tuttavuutena, erittäin helppo oppia ja mahtava softa ilmaiseksi.
 
-## Preview
 
-[![Bare Preview](https://startbootstrap.com/assets/img/templates/bare.jpg)](https://blackrockdigital.github.io/startbootstrap-bare/)
+## Ajankäyttö
+Aikaa kokonaisuudessaan sivuston suunnitteluun, logon suunnitteluun ja näiden molempien tuottamiseen kului karkeasti 35-40 tuntia. Itse sivuston suunnitteluun kului noin 5-7 tuntia. Toteutukseen noin 20 tuntia kaikkien SASS ongelmien vuoksi ja koska piti tuottaa myös sisältö aivan kokonaan. Loppu aika kului logoon ja taustakuviin ja muihin kuvamuokkailuihin. Suunnittelu ja toteutusvaihe suvustolle olisi ollut varmasti nopeampikin, mutta varsinaista visiota ei meinannut oikein löytyä. Senpä takia sivu menikin alussa monesti poistoon ja uusi tilalle. Taisin aloittaa sivun alusta jopa 8 kertaa, kun ei miellyttänyt silmää.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-bare/)**
+## Yleistä
+Kaikkiaan miellyttävää hommaa ja lopputulokseen olen kyllä tyytyväinen. Mahtavaa että nyt vihdoin tuli opeteltua tuo CSS preprosessorien käyttökin niin alkaa hommat sujumaan entistä paremmin. Suurimmat vaikeudet itsellä on ollut nimenomaan tuossa visualisoinnissa, joten tämä kmurssi kyllä tuli siinämielessä hyvään paikkaan. Ainakin nyt tuntuu siltä, että silmä on jo alkanut harjaantumaan paremmaksi visualisoinnin kannalta tätä tehdessä. Yhteydenottolomakkeen tekeminen oli mielenkiintoista myös ja SSL salauksen asettaminen omalle domainille vaikka eivät nyt varsinaisesti kurssin aiheeseen kuulukkaan.
 
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-bare/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-bare.svg)](https://www.npmjs.com/package/startbootstrap-bare)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-bare.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-bare)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare?type=dev)
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-bare/blob/gh-pages/LICENSE) license.
+## Arvosana ehdotus
+Arvosanaksi kurssiarvostelun perustein antaisin 3 koska sivusto ei ole aivan älyttömän laaja. Skaalautuu hyvin ja toimiikin hyvin.
