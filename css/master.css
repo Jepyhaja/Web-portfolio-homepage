@@ -103,11 +103,13 @@ p {
 .closer {
   margin-top: 15px;
   border-top: 2px solid #b0ffb0;
-  background-color: #3f3f3f;
+  background-color: #3f3f3f; }
+
+.paddings {
   padding: 4em 0; }
 
 .portrait {
-  max-width: 300px !important; }
+  max-width: 300px; }
 
 .portr {
   margin-top: 0; }
