@@ -103,7 +103,17 @@ p {
 .closer {
   margin-top: 15px;
   border-top: 2px solid #b0ffb0;
-  background-color: #3f3f3f; }
+  background-color: #3f3f3f;
+  padding: 4em 0; }
+
+.portrait {
+  max-width: 300px !important; }
+
+.portr {
+  margin-top: 0; }
+
+.about, .conta {
+  margin-top: 35px; }
 
 .mhide {
   display: none; }
@@ -339,9 +349,13 @@ p {
   font-family: Orbitron, sans-serif;
   border-radius: 4px;
   padding: 2px 6px;
-  transition-duration: 0.4s; }
+  transition-duration: 0.4s;
+  text-decoration: none; }
 
 a.butto {
+  padding: 4px 6px; }
+
+a.butto:hover {
   padding: 4px 6px; }
 
 .note {
@@ -390,7 +404,13 @@ input, textarea {
     max-width: 80%;
     margin: 0 auto;
     font-family: Lato, sans-serif;
-    font-size: 110%; } }
+    font-size: 110%; }
+
+  .portr {
+    margin-top: 0px; }
+
+  .about, .conta {
+    margin-top: 35px; } }
 @media only screen and (min-width: 768px) {
   #SVGRoot {
     width: 60px; }
@@ -428,7 +448,11 @@ input, textarea {
     max-width: 80%;
     margin: 0 auto;
     font-family: Lato, sans-serif;
-    font-size: 110%; } }
+    font-size: 110%; }
+    p .portr {
+      margin-top: 0px; }
+    p .about, p .conta {
+      margin-top: 35px; } }
 @media only screen and (min-width: 980px) {
   .mhide {
     display: block; }
@@ -500,6 +524,12 @@ input, textarea {
     max-width: 80%;
     margin: 0 auto;
     font-family: Lato, sans-serif;
-    font-size: 120%; } }
+    font-size: 120%; }
+
+  .portr {
+    margin-top: 0px; }
+
+  .about, .conta {
+    margin-top: 0px; } }
 
 /*# sourceMappingURL=master.css.map */

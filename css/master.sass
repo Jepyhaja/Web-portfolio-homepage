@@ -98,10 +98,18 @@ p
 	margin-bottom: 10px
 .hookp
 	margin-bottom: 15px
+//--------------------------------CLOSER ETC
 .closer
 	margin-top: 15px
 	border-top: 2px solid $hilight
 	background-color: $bgc + 20
+	padding: 4em 0
+.portrait
+	max-width: 300px !important
+.portr
+	margin-top: 0
+.about,.conta
+	margin-top: 35px
 .mhide
 	display: none
 .mshow
@@ -323,7 +331,10 @@ p
 	border-radius: 4px
 	padding: 2px 6px
 	transition-duration: 0.4s
+	text-decoration: none
 a.butto
+	padding: 4px 6px
+a.butto:hover
 	padding: 4px 6px
 .note
 	font-size: 80%
@@ -364,6 +375,10 @@ input, textarea
 		margin: 0 auto
 		font-family: Lato, sans-serif
 		font-size: 110%
+	.portr
+		margin-top: 0px
+	.about,.conta
+		margin-top: 35px
 @include respond-to($tablet-portrait)
 	#SVGRoot
 		width: 60px
@@ -395,6 +410,10 @@ input, textarea
 		margin: 0 auto
 		font-family: Lato, sans-serif
 		font-size: 110%
+		.portr
+			margin-top: 0px
+		.about,.conta
+			margin-top: 35px
 @include respond-to($large-desktop)
 	.mhide
 		display: block
@@ -450,3 +469,7 @@ input, textarea
 		margin: 0 auto
 		font-family: Lato, sans-serif
 		font-size: 120%
+	.portr
+		margin-top: 0px
+	.about,.conta
+		margin-top: 0px
